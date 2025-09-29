@@ -107,9 +107,10 @@ This project was created by [Ravikant Singh](https://github.com/ravikantsingh12)
 
 - [LinkedIn](https://www.linkedin.com/in/ravikant-singh-327a98241)
 
-# TẠO CLIENT_ID  và CLIENT_SECRET
-## CLIENT_ID = username của ứng dụng.
-## CLIENT_SECRET = password của ứng dụng.
+# BÀI LÀM
+
+## TẠO CLIENT_ID  và CLIENT_SECRET 
+
 Bước1: Truy cập https://console.cloud.google.com/
 ![alt text](image.png)
 
