@@ -1,3 +1,5 @@
+import https from "https";
+import fs from "fs";
 import express from "express"; // Importing express for the web framework
 import bodyParser from "body-parser"; // Importing bodyParser for parsing request bodies
 import ejsLayouts from "express-ejs-layouts"; // Importing express-ejs-layouts for layout support
@@ -71,7 +73,11 @@ app.use("/user", router);
 app.use("/auth", authrouter);
 app.use(express.static("public"));
 
-//LISTEN
-app.listen(process.env.PORT, () => {
-  console.log(`Server is running on port ${process.env.PORT}`);
+// //LISTEN
+// app.listen(process.env.PORT, () => {
+//   console.log(`Server is running on port ${process.env.PORT}`);
+// });
+
+app.listen(process.env.PORT || 3000, () => {
+  console.log(`🚀 Server is running at http://localhost:${process.env.PORT}`);
 });

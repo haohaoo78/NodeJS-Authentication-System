@@ -106,3 +106,34 @@ This project was created by [Ravikant Singh](https://github.com/ravikantsingh12)
 ## Follow me on
 
 - [LinkedIn](https://www.linkedin.com/in/ravikant-singh-327a98241)
+
+# Kết quả
+## CLIENT_ID: Google OAuth client ID. and CLIENT_SECRET: Google OAuth client secret (sign in with Google).
+Bước1: Truy cập https://console.cloud.google.com/
+![alt text](image.png)
+
+Bước 2: Vào Select a project -> nhấn new project 
+![alt text](image-1.png)
+
+Bước 3: Điền tên new project -> nhấn create
+![alt text](image-2.png)
+
+Bước 4: Select a project với tên project vừa tạo 
+![alt text](image-3.png)
+
+Bước 5: Trong menu bên trái → APIs & Services → Library -> Tìm Gmail API → nhấn Enable (Bật).
+![alt text](image-4.png)
+![alt text](image-5.png)
+
+Bước 6: Trong APIs & Services -> → Credentials → OAuth client ID.
+Nếu chưa setup OAuth Consent Screen
+Trong menu bên trái → APIs & Services → chọn OAuth Consent Screen.
+![alt text](image-6.png)
+Điền App Name, Email-> next 
+![alt text](image-7.png)
+Chọn External -> next
+![alt text](image-8.png)
+Điền email contact information -> next -> continue -> nhấn Create.
+Sau đó quay lại → chọn OAuth Client ID -> Chọn Web application ->  Điền thông tin -> nhấn Create.
+![alt text](image-9.png)
+![alt text](image-10.png)
