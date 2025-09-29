@@ -107,8 +107,9 @@ This project was created by [Ravikant Singh](https://github.com/ravikantsingh12)
 
 - [LinkedIn](https://www.linkedin.com/in/ravikant-singh-327a98241)
 
-# Kết quả
-## CLIENT_ID: Google OAuth client ID. and CLIENT_SECRET: Google OAuth client secret (sign in with Google).
+# TẠO CLIENT_ID  và CLIENT_SECRET
+## CLIENT_ID = username của ứng dụng.
+## CLIENT_SECRET = password của ứng dụng.
 Bước1: Truy cập https://console.cloud.google.com/
 ![alt text](image.png)
 
@@ -137,3 +138,6 @@ Chọn External -> next
 Sau đó quay lại → chọn OAuth Client ID -> Chọn Web application ->  Điền thông tin -> nhấn Create.
 ![alt text](image-9.png)
 ![alt text](image-10.png)
+
+## Kết quả
+![alt text](image-11.png)
