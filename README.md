@@ -112,33 +112,86 @@ This project was created by [Ravikant Singh](https://github.com/ravikantsingh12)
 ## TẠO CLIENT_ID  và CLIENT_SECRET 
 
 Bước1: Truy cập https://console.cloud.google.com/
-![alt text](image.png)
+![alt text](img_readme/image.png)
 
 Bước 2: Vào Select a project -> nhấn new project 
-![alt text](image-1.png)
+![alt text](img_readme/image-1.png)
 
-Bước 3: Điền tên new project -> nhấn create
-![alt text](image-2.png)
+Bước 3: Điền project name -> nhấn create
+![alt text](img_readme/image-2.png)
 
 Bước 4: Select a project với tên project vừa tạo 
-![alt text](image-3.png)
+![alt text](img_readme/image-3.png)
 
 Bước 5: Trong menu bên trái → APIs & Services → Library -> Tìm Gmail API → nhấn Enable (Bật).
-![alt text](image-4.png)
-![alt text](image-5.png)
+![alt text](img_readme/image-4.png)
+![alt text](img_readme/image-5.png)
 
 Bước 6: Trong APIs & Services -> → Credentials → OAuth client ID.
 Nếu chưa setup OAuth Consent Screen
 Trong menu bên trái → APIs & Services → chọn OAuth Consent Screen.
-![alt text](image-6.png)
+![alt text](img_readme/image-6.png)
 Điền App Name, Email-> next 
-![alt text](image-7.png)
+![alt text](img_readme/image-7.png)
 Chọn External -> next
-![alt text](image-8.png)
+![alt text](img_readme/image-8.png)
 Điền email contact information -> next -> continue -> nhấn Create.
 Sau đó quay lại → chọn OAuth Client ID -> Chọn Web application ->  Điền thông tin -> nhấn Create.
-![alt text](image-9.png)
-![alt text](image-10.png)
+![alt text](img_readme/image-9.png)
+![alt text](img_readme/image-10.png)
 
 ## Kết quả
-![alt text](image-11.png)
+![alt text](img_readme/image-11.png)
+
+## TẠO RECAPTCHA_SECRET_KEY
+Bước 1: Truy cập Google reCAPTCHA Admin Console: https://www.google.com/recaptcha/admin/create
+
+Bước 2: Điền thông tin tạo site mới -> nhấn Submit
+![alt text](img_readme/image-12.png)
+
+## Kết quả
+![alt text](img_readme/image-16.png)
+
+# TẠO MẬT KHẨU ỨNG DỤNG (PASSWORD)
+![alt text](img_readme/image-14.png)
+
+## Kết quả
+![alt text](img_readme/image-15.png)
+
+# TEST
+## 1, Login bằng Google OAuth
+![alt text](img_readme/image-17.png)
+kết quả 
+![alt text](img_readme/image-18.png)
+
+## 2, Logout
+![alt text](img_readme/image-19.png)
+
+## 3, Sing up 
+![alt text](img_readme/image-20.png)
+Check in database
+![alt text](img_readme/image-23.png)
+
+## 4, Login bằng tài khoản vừa tạo
+![alt text](img_readme/image-24.png)
+Kết quả 
+![alt text](img_readme/image-25.png)
+
+## 5, Change password
+![alt text](img_readme/image-26.png)
+check in database
+![alt text](img_readme/image-27.png)
+
+## 6,  Forgot password
+![alt text](img_readme/image-28.png)
+Kết quả 
+![alt text](img_readme/image-29.png)
+check in database
+![alt text](img_readme/image-31.png)
+
+Đăng nhập lại với mật khẩu vừa được cấp
+![alt text](img_readme/image-30.png)
+Kết quả
+![alt text](img_readme/image-32.png)
+->> logout
+![alt text](img_readme/image-33.png)
