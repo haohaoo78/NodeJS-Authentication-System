@@ -160,7 +160,10 @@ Truy cập: https://myaccount.google.com/apppasswords
 ![alt text](img_readme/image-15.png)
 
 # TEST
+## CHẠY APP
+node app.js 
 ## 1, Login bằng Google OAuth
+Truy cập : http://localhost:3000/auth/google
 ![alt text](img_readme/image-17.png)
 kết quả 
 ![alt text](img_readme/image-18.png)
