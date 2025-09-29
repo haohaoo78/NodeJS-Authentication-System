@@ -153,6 +153,7 @@ Bước 2: Điền thông tin tạo site mới -> nhấn Submit
 ![alt text](img_readme/image-16.png)
 
 # TẠO MẬT KHẨU ỨNG DỤNG (PASSWORD)
+Truy cập: https://myaccount.google.com/apppasswords
 ![alt text](img_readme/image-14.png)
 
 ## Kết quả
